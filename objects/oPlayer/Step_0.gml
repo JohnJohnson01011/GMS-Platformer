@@ -8,6 +8,13 @@ key_jump = keyboard_check_pressed(vk_space);
 // This will calculate the movement so that we can make the object move after it gets calculated so we can move the object by using the var function (tru)
 hsp = (key_right - key_left) * walksp;
 
+vsp = vsp + grv;
+
+if (place_meeting(x, y + 1, oWall)) && (key_jump)
+{
+	vsp = -jumpsp
+}
+
 // Horizontal collision
 if (place_meeting(x + hsp, y, oWall))
 {
@@ -19,8 +26,6 @@ if (place_meeting(x + hsp, y, oWall))
 }
 
 x += hsp;
-
-vsp = vsp + grv;
 
 // Vertical collision
 if (place_meeting(x, y + vsp, oWall))
