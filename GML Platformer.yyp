@@ -12,6 +12,7 @@
     {"id":{"name":"sClouds","path":"sprites/sClouds/sClouds.yy",},"order":6,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":4,},
+    {"id":{"name":"tWalls","path":"tilesets/tWalls/tWalls.yy",},"order":0,},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
