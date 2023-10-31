@@ -1,14 +1,11 @@
 /// @description Core Player Logic
 
-// Get the inputs that the player input from their keyboard to their computer getting the input that the player ends up inputting from their keyboard
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+// Inputs
+key_jump = keyboard_check(ord("W"))
+hsp = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * walksp
 
-// This will calculate the movement so that we can make the object move after it gets calculated so we can move the object by using the var function (tru)
-hsp = (key_right - key_left) * walksp;
-
-vsp = vsp + grv;
+// Gravity
+vsp += grv
 
 if (place_meeting(x, y + 1, oWall)) && (key_jump)
 {
@@ -35,6 +32,11 @@ if (place_meeting(x, y + vsp, oWall))
 		y += sign(vsp);
 	}
 	vsp = 0;
+}
+if (place_meeting(x, y + vsp, oNope)) // So you don't fall into the void and die handsomely
+{
+	x = global.startX;
+	y = global.startY;
 }
 y += vsp;
 
