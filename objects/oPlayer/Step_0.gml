@@ -10,6 +10,12 @@ vsp += grv
 if (place_meeting(x, y + 1, oWall)) && (key_jump)
 {
 	vsp = -jumpsp
+	didjump = false
+}
+else if key_jump and didjump == false and vsp > 0.1
+{
+	vsp = -jumpsp + 2
+	didjump = true
 }
 
 // Horizontal collision
@@ -35,8 +41,8 @@ if (place_meeting(x, y + vsp, oWall))
 }
 if (place_meeting(x, y + vsp, oNope)) // So you don't fall into the void and die handsomely
 {
-	x = global.startX;
-	y = global.startY;
+	x = startx;
+	y = starty;
 }
 y += vsp;
 
@@ -54,3 +60,16 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+if (place_meeting(x, y, oPuzzle))
+{
+	x = startx;
+	y = starty;
+	currentrm += 1;
+	switch (currentrm)
+	{
+	    case 2: room_goto(rTwo); break;
+	    case 3: room_goto(rThree); break;
+	    case 4: room_goto(rFour); break;
+	}
+}

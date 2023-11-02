@@ -3,15 +3,19 @@
   "resourceVersion": "1.6",
   "name": "GML Platformer",
   "resources": [
-    {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":3,},
     {"id":{"name":"sInvisibleWall","path":"sprites/sInvisibleWall/sInvisibleWall.yy",},"order":1,},
+    {"id":{"name":"oPuzzle","path":"objects/oPuzzle/oPuzzle.yy",},"order":5,},
     {"id":{"name":"sWalls","path":"sprites/sWalls/sWalls.yy",},"order":5,},
     {"id":{"name":"oNope","path":"objects/oNope/oNope.yy",},"order":3,},
+    {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":6,},
     {"id":{"name":"sGrain","path":"sprites/sGrain/sGrain.yy",},"order":7,},
+    {"id":{"name":"rThree","path":"rooms/rThree/rThree.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sJump","path":"sprites/sJump/sJump.yy",},"order":9,},
+    {"id":{"name":"sText","path":"sprites/sText/sText.yy",},"order":11,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":0,},
+    {"id":{"name":"sPuzzle","path":"sprites/sPuzzle/sPuzzle.yy",},"order":10,},
     {"id":{"name":"sClouds","path":"sprites/sClouds/sClouds.yy",},"order":6,},
     {"id":{"name":"sControls","path":"sprites/sControls/sControls.yy",},"order":8,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
@@ -20,6 +24,8 @@
     {"id":{"name":"oJump","path":"objects/oJump/oJump.yy",},"order":4,},
     {"id":{"name":"tWalls","path":"tilesets/tWalls/tWalls.yy",},"order":0,},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":2,},
+    {"id":{"name":"rFour","path":"rooms/rFour/rFour.yy",},"order":3,},
+    {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":1,},
     {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":0,},
   ],
   "Options": [
@@ -41,6 +47,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
+    {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
+    {"roomId":{"name":"rFour","path":"rooms/rFour/rFour.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

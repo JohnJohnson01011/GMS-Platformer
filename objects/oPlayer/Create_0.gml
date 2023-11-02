@@ -5,6 +5,8 @@ vsp = 0;
 grv = 0.3;
 walksp = 5.5;
 jumpsp = 10;
+didjump = false;
 
-global.startX = 190;
-global.startY = 300;
+startx = 190;
+starty = 300;
+currentrm = 1;
