@@ -17,4 +17,8 @@ The assets and video tutorials were created by [Shaun Spalding](https://www.yout
 Check out Shaun's amazing collections of videos.
 
 ## Additions
-I've added 3 new rooms, a double jump, changed controls, some images, and imported my character
+* 3 new rooms
+* Double jump
+* Images in rooms
+* Altered controls
+* Custom player sprite
