@@ -15,3 +15,6 @@ A GML Starter kit for the **Platformer Tutorial (GML) - Parts 1 & 2**
 ## Credits
 The assets and video tutorials were created by [Shaun Spalding](https://www.youtube.com/c/ShaunSpalding).
 Check out Shaun's amazing collections of videos.
+
+## Additions
+I've added 3 new rooms, a double jump, changed controls, some images, and imported my character
