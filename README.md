@@ -19,6 +19,6 @@ Check out Shaun's amazing collections of videos.
 ## Additions
 * 3 new rooms
 * Double jump
-* Images in rooms
-* Altered controls
+* New images
+* Altered controls (W to jump, A + D to walk)
 * Custom player sprite
